@@ -12,7 +12,7 @@ it is generally avalible in every file
 an include file contains one function
     function main(app) // app is like dependeny injection
     {
-     this // usualy: this=app, but might be an other object yo like to extend in this function
+     this // usually: this=app, but might be an other object yo like to extend in this function
      this.foo=function(){};
     }
 
@@ -46,7 +46,7 @@ and you can create "page" type controllers in +templates/website+
 to build the website
 
 a page is a `templates_object` as defined in double templets (nodejs meta templates)
-a page also contains a path or pathbegins propery it is for the router.
+a page also contains a path or pathbegins property it is for the router.
 
 a module has setupfirst(app),setupfirst(app)
 
@@ -75,7 +75,7 @@ http://www.hkvstore.com/phpmaker/
 
 
 The first idea about application structure was:
-the application is a single aplication but i can be defined in several moduls.
+the application is a single application but i can be defined in several moduls.
 
 now i find it hard to implement everything i shared objects.
 
@@ -94,7 +94,7 @@ application definition can be spread between many moduls for convinience
 
 a module extends the application object or the application's shared objects boted in the tree chart above.
 
-it is posible to define a model in a module, then call kind of a macro function 
+it is possible to define a model in a module, then call kind of a macro function 
 that adds all (edit,add,delete,list) functions and templates and urls to the application 
 as defined by that model.
 also you can define all those by your self so you can make custom pages.
